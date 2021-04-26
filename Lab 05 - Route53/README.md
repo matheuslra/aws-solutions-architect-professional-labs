@@ -1,9 +1,9 @@
 # Lab 05 - Route 53 Routing Policy
 
 Para este Lab, será necessário criar préviamente os seguintes recursos:
-- 1 VPC em N. Virginia (us-east-1) com DNS ativado (CIDR: 172.31.0.0/16).
+- 1 VPC em N. Virginia (us-east-1) com DNS ativado (CIDR: 10.0.0.0/16).
 - 1 Subnet com o mesmo CIDR da VPC criada em Virginia.
-- 1 VPC em Frankfurt (eu-central-1) com DNS ativado (CIDR: 172.32.0.0/16).
+- 1 VPC em Frankfurt (eu-central-1) com DNS ativado (CIDR: 172.31.0.0/16).
 - 1 Subnet com o mesmo CIDR da VPC criada em Frankfurt.
 - 1 VPC-Peering entre a vpc criada em Virginia e a criada em Frankfurt.
 - Rota para ambas VPCs pelo peering criado.
